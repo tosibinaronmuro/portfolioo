@@ -43,6 +43,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  display: flex;
 }
 
 .title,
@@ -97,8 +98,9 @@
   font-size: 1.5rem;
 }
 
-.card p {
+ .p {
   margin: 0;
+  text-align: center;
   font-size: 1.25rem;
   line-height: 1.5;
 }
