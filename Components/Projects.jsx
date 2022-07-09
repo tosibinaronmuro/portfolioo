@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
-import profilePic from "../public/recipeApp.png";
+ 
 import Data from './ProjectsData.js'
 function Projects() {
  

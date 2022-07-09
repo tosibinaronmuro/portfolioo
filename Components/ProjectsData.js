@@ -1,5 +1,5 @@
 import recipeApp from "../public/recipeApp.png";
-import ecommerceApp from "../public/ecommerceApp.png";
+import ecommerceApp from "../public/eCommerceApp.png";
 import portfolioSite from "../public/portfolioSite.png";
 const Data=[{ 
  
