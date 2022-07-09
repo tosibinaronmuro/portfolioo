@@ -45,7 +45,7 @@ export default function About() {
             <p className="text-sm lg:text-lg font-light flex flex-col justify-start font-sans text-justify items-center">
             
               Tosibinaronmuro Jegede is a Front End Developer, with a bachelor of Engineering degree in Electrical and Electronics Engineering.
-              He is  is fueled by his passion for the acquisition, understanding and application of knowledge and actively pursues it. He considers himself a ‘forever student,’ eager to both build on his academic foundations in STEM and stay in tune with the latest trends through continued coursework and professional development.
+              He is fueled by his passion for the acquisition, understanding and application of knowledge and actively pursues it. He considers himself a ‘forever student,’ eager to both build on his academic foundations in STEM and stay in tune with the latest trends through continued coursework and professional development.
             </p>
             <p className="text-sm lg:text-lg font-extralight flex flex-col justify-start font-sans text-justify items-center">
             Tosiron is currently working as a freelance Web Application developer and is always interested in a challenge. Reach out to Tosiron <a href="Contact">here</a> to connect!
