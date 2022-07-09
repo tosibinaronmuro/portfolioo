@@ -385,5 +385,14 @@ animation: gradient 1s ease infinite;
   background-size: 400% 400%;
   animation: gradient 1s ease infinite;
   }
+  @keyframes cube {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(5) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }}
   
 }
