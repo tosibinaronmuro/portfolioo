@@ -5,7 +5,7 @@ import profilePic from "../public/recipeApp.png";
 import Data from './ProjectsData.js'
 function Projects() {
  
-  console.log(Data)
+ 
   return (
     <div className={styles.bodyanimation3}>
         <div className={styles.cube}></div>
