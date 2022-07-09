@@ -1,9 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
+  cursor:none;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-snap-type: proximity;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y proximity;
+    overflow-x: hidden;
 }
 
 a {
@@ -14,3 +23,11 @@ a {
 * {
   box-sizing: border-box;
 }
+.toHide{
+  margin: left 1.25rem;
+  display:hidden;
+
+}
+/* .toHide:hover{
+  display: block;
+} */
