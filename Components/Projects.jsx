@@ -29,7 +29,7 @@ function Projects() {
       <div className={styles.cube}></div>
       <div className="flex h-auto w-screen">
         <div className=" mx-2 md:ml-40 lg:mx-40  m-auto flex flex-col justify-center items-start">
-          <h1 className="text-3xl flex m-4 text-yellow-500   flex-col justify-start font-mono font-bold items-center">
+          <h1 className="text-3xl flex m-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-800   flex-col justify-start font-mono font-bold items-center">
             Recent Projects
           </h1>
           <div className="flex   flex-wrap justify-center  ">

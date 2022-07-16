@@ -118,7 +118,7 @@
 }
  
 .active{
-  background-color: rgb(234 179 8  );
+  background-color: rgb(234 179 8 );
   transition: background-color 1s ease;
   display: flex;
   color: black;

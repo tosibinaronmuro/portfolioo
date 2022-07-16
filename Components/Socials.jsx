@@ -8,7 +8,7 @@ function Socials() {
            <div><a
             href="https://twitter.com/tosiron2"
              
-            className="text-last hover:text-last text-black "
+            className="text-last hover:text-last text-yellow-500 "
           >
             <svg
               className="w-5 h-5 hover:w-10 hover:h-10 hover:cursor-none"
@@ -27,7 +27,7 @@ function Socials() {
 <a
             href="https://github.com/tosibinaronmuro"
              
-            className="text-last hover:text-last text-black  "
+            className="text-last hover:text-last text-yellow-500  "
           >
             <svg
               className="w-5 h-5 hover:w-10 hover:h-10 hover:cursor-none"
@@ -48,7 +48,7 @@ function Socials() {
 <a
             href="https://www.instagram.com/tosironj/"
                
-            className="text-last hover:text-last text-black "
+            className="text-last hover:text-last text-yellow-500 "
           >
             <svg
               className="w-5 h-5 hover:w-10 hover:h-10 hover:cursor-none"
