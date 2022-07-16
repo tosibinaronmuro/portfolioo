@@ -41,7 +41,7 @@ export default function About() {
           </div>
         )}
           <div className=" mx-4 md:ml-40 lg:mx-40  m-auto flex flex-col justify-center items-start">
-            <h1 className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-800 flex flex-col justify-start font-mono font-bold items-center">
+            <h1 className="text-3xl   bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-800 flex flex-col justify-start font-mono font-bold items-center">
               About Me
             </h1>
             <p className="text-sm lg:text-lg font-light flex flex-col justify-start font-sans text-justify items-center">
