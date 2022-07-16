@@ -52,7 +52,7 @@ const router= useRouter()
       <div className={styles.cube}></div>
        
           <div  className=" mx-5 md:ml-40 lg:ml-40  text-gray-300 m-auto flex flex-col justify-center items-start">
-            <h1 className="text-3xl flex flex-col   bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-800  justify-start font-mono font-bold items-center">
+            <h1 className="text-3xl flex flex-col text-yellow-500 md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-yellow-200 md:to-yellow-800  lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r from-yellow-200 to-yellow-800  justify-start font-mono font-bold items-center">
               
               Tosiron Jegede
             </h1>
