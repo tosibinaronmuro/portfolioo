@@ -3,7 +3,7 @@ import React from 'react'
 function Socials() {
   return (
     <> 
-         <div className='flex ml-14 w-40  justify-between mt-5'>
+         <div className='flex ml-1 md:ml-1  lg:ml-1  w-40  justify-between mt-5'>
              {/* twitter */}
            <div><a
             href="https://twitter.com/tosiron2"

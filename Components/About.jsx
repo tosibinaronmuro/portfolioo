@@ -11,7 +11,9 @@ import { useMediaQuery } from "react-responsive";
  
 
 export default function About() {
- 
+  const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
+  
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 766px)" });
 
   return (
     <div>
@@ -30,16 +32,16 @@ export default function About() {
       <div className={styles.cube}></div>
         {/* sidenav */}
         <div className="flex h-screen w-screen">
-        {/* {isTabletOrMobile ? (
+        {isTabletOrMobile ? (
           <DrawerComp />
         ) : (
           <div className="ml-1 lg:ml-5 h-full fixed top-40   flex flex-col justify-center items-start">
             
             <Hero />
           </div>
-        )} */}
+        )}
           <div className=" mx-4 md:ml-40 lg:mx-40  m-auto flex flex-col justify-center items-start">
-            <h1 className="text-3xl flex flex-col justify-start font-mono font-bold items-center">
+            <h1 className="text-3xl text-yellow-500 flex flex-col justify-start font-mono font-bold items-center">
               About Me
             </h1>
             <p className="text-sm lg:text-lg font-light flex flex-col justify-start font-sans text-justify items-center">

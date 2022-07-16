@@ -1,13 +1,27 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
+import { useMediaQuery } from "react-responsive";
+import Hero from "./Hero";
+import DrawerComp from "../Components/Drawer";
  
 import Data from './ProjectsData.js'
 function Projects() {
  
- 
+  const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
+  
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 766px)" });
   return (
     <div className={styles.bodyanimation3}>
+{isTabletOrMobile ? (
+          <DrawerComp />
+        ) : (
+          <div className="ml-1 lg:ml-5 h-full fixed top-40   flex flex-col justify-center items-start">
+            
+            <Hero />
+          </div>
+        )}
+
         <div className={styles.cube}></div>
        <div className={styles.cube}></div>
        <div className={styles.cube}></div>
@@ -15,7 +29,7 @@ function Projects() {
       <div className={styles.cube}></div>
       <div className="flex h-auto w-screen">
         <div className=" mx-2 md:ml-40 lg:mx-40  m-auto flex flex-col justify-center items-start">
-          <h1 className="text-3xl flex m-4   flex-col justify-start font-mono font-bold items-center">
+          <h1 className="text-3xl flex m-4 text-yellow-500   flex-col justify-start font-mono font-bold items-center">
             Recent Projects
           </h1>
           <div className="flex   flex-wrap justify-center  ">
