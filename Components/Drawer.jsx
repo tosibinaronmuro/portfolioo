@@ -3,10 +3,12 @@ import React, { useState } from 'react';
 import styles from "../styles/Home.module.css";
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import Link from 'next/link'
+import { useSelector } from "react-redux";
 
 const DrawerComp = () => {
   const [visible, setVisible] = useState(false);
   const [placement, setPlacement] = useState('left');
+  const themee=useSelector(state=>state.theme)
 
   const showDrawer = () => {
     setVisible(true);
@@ -28,7 +30,7 @@ const DrawerComp = () => {
           Open
         </Button> */}
         <div onClick={showDrawer}>
-        <svg className="w-6 h-6 text-yellow-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        <svg className={themee.light ? "w-6 h-6 text-yellow-600":"w-6 h-6 text-yellow-200"} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </div>
       </Space>
       <Drawer
