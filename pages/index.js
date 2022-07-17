@@ -52,11 +52,11 @@ const router= useRouter()
       <div className={styles.cube}></div>
        
           <div  className=" mx-5 md:ml-40 lg:ml-40  text-gray-300 m-auto flex flex-col justify-center items-start">
-            <h1 className="text-3xl flex flex-col text-yellow-500 md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-yellow-200 md:to-yellow-800  lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r from-yellow-200 to-yellow-800  justify-start font-mono font-bold items-center">
+            <h1 className="text-3xl flex flex-col text-yellow-500 md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-yellow-200 md:to-yellow-800  lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r from-yellow-200 to-yellow-800  justify-start font-poppins font-bold items-center">
               
               Tosiron Jegede
             </h1>
-            <p className="text-2xl   flex flex-col justify-start font-sans items-center ">
+            <p className="text-2xl   flex flex-col justify-start font-raleway items-center ">
             
                Frontend Developer
             </p>
@@ -64,7 +64,7 @@ const router= useRouter()
             <Socials />
         <div className="mt-5">
            
-          <a href="/TosironJegede.pdf" download={true} target='_blank'><button  className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-200 to-yellow-800 group-hover:from-yellow-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-200  "><span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+          <a href="/TosironJegede.pdf" download={true} target='_blank'><button  className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-200 to-yellow-800 group-hover:from-yellow-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-200  "><span className="relative px-5 py-2.5 font-raleway transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
       Get my resume
   </span></button></a>
         </div>

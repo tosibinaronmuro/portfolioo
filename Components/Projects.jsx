@@ -28,8 +28,8 @@ function Projects() {
        <div className={styles.cube}></div>
       <div className={styles.cube}></div>
       <div className="flex h-auto w-screen">
-        <div className=" mx-2 md:ml-40 lg:mx-40  m-auto flex flex-col justify-center items-start">
-          <h1 className="text-3xl flex m-4 text-yellow-500 md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-yellow-200 md:to-yellow-800  lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r from-yellow-200 to-yellow-800   flex-col justify-start font-mono font-bold items-center">
+        <div className=" mx-2 md:ml-40 lg:mx-40  m-auto flex flex-col justify-center items-start font-raleway">
+          <h1 className="text-3xl flex m-4 text-yellow-500 md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-yellow-200 md:to-yellow-800  lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r from-yellow-200 to-yellow-800   flex-col justify-start font-poppins font-bold items-center">
             Recent Projects
           </h1>
           <div className="flex   flex-wrap justify-center  ">
@@ -41,14 +41,14 @@ function Projects() {
                 <h1 className="text-white text-xl">{item.title}</h1>
                 <p>{item.tools}</p>
                 <div className="flex justify-center p-4  ">
-                  <button className="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400">
+                  <button className="relative inline-flex items-center justify-center h-11 p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-200 to-yellow-800 group-hover:from-yellow-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-200 ">
                    <a href={item.github} target={item.target}>
-                   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 text-white bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                       GitHub
                     </span>
                    </a>
                   </button>
-                  <button className="relative inline-flex items-center justify-center h-11 p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                  <button className="relative inline-flex items-center justify-center h-11 p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-200 to-yellow-800 group-hover:from-yellow-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-200  ">
                   <a href={item.demo} target={item.target}>
                     <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                       Live Demo

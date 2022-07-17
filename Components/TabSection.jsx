@@ -11,9 +11,9 @@ const TabSection = () => (
     'backgroundColor':'black',
     'color':'white',
     'padding':5,
-     
+      
 
-  }} className="bg-black text-white h-80 w-full lg:w-full rounded-lg p-4 hover:border-2 hover:border-t-0     hover:border-yellow-500" defaultActiveKey="1"  centered   
+  }} className="bg-black text-white h-80 w-full lg:w-full rounded-lg p-4 hover:border-2 hover:border-t-0  font-raleway   hover:border-yellow-500" defaultActiveKey="1"  centered   
  >
     <TabPane className="   text-white h-auto w-full lg:w-full rounded-lg p-4   "
                      tab="Languages" key="1">

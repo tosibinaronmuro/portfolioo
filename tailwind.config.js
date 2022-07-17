@@ -10,6 +10,10 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('../public/patternpad5.jpeg')",
         'hero-pattern2': "url('../public/patternpad.jpeg')",
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        raleway:['Raleway', 'sans-serif'],
       }
     },
   },

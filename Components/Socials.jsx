@@ -30,7 +30,7 @@ function Socials() {
             className="text-last hover:text-last text-yellow-500  "
           >
             <svg
-              className="w-5 h-5 hover:w-10 hover:h-10 hover:cursor-none"
+              className="w-5 h-5 hover:w-10 hover:h-10 hover:text-white hover:cursor-none"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
