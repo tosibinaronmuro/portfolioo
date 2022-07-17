@@ -26,7 +26,7 @@ const Data=[{
     'id': 3,
 		'image':portfolioSite ,
 		'title': `Personal portfolio site `,
-		'tools':'NEXTjs, Tailwind.css',
+		'tools':'NEXTjs, Tailwind.css, Redux toolkit',
 		'github': 'https://github.com/tosibinaronmuro/portfolioo',
 		'target': '_blank',
 		'demo': 'https://tosironsportfoliosite.netlify.app/',
