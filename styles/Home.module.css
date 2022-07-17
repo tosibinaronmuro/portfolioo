@@ -158,42 +158,17 @@
   animation: gradient 15s ease infinite;
  
 }
-.bodyanimation2 {
-  height: auto;
-  width: 100%;
+.bodyanimation2{
+  height: 100%;
+  width: 100vw;
   display: flex;
-background-color: inherit;
-color: rgb(255, 255, 255);
-  flex-direction: column;
-  /* background: linear-gradient(-45deg, #b92b27, #1565c0); */
-  mix-blend-mode: multiply;
-  background: linear-gradient(-45deg, #000000, #434343);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
- 
-}
-.bodyanimation3 {
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+  /* mix-blend-mode: multiply; */
   color: #FFF;
-  /* background: linear-gradient(-45deg, #009fff,#ec2f4b); */
-  mix-blend-mode: multiply;
-  background: linear-gradient(-45deg, #000000, #434343);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
- 
-}
-.bodyanimation4 {
-  height: auto;
-  width: 100%;
-  display: flex;
+  position: relative;
+  scroll-snap-align: start;
   flex-direction: column;
- color: #FFF;
-  /* background: linear-gradient(-45deg, #000046,#1cb5e0 ); */
-  mix-blend-mode: multiply;
-  background: linear-gradient(-45deg, #000000, #434343);
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: linear-gradient(-45deg, #fff, #bdbaba);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
  
@@ -310,7 +285,16 @@ color: rgb(255, 255, 255);
     transform-origin: bottom;
      animation-duration: 4s;
 } 
-
+.goDown2{
+  height: 2rem;
+  width: 3rem;
+ color:black;
+  animation-name: bounce;
+  animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+     animation-duration: 4s;
+}
  
 @keyframes bounce {
 0%   { transform: translateY(0); }

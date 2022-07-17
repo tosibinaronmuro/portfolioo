@@ -5,6 +5,7 @@ module.exports = {
     "./Components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    darkMode: 'className',
     extend: {
 
       backgroundImage: {

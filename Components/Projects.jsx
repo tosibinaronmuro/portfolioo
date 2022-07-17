@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useMediaQuery } from "react-responsive";
 import Hero from "./Hero";
 import DrawerComp from "../Components/Drawer";
+import { useSelector } from "react-redux";
  
 import Data from './ProjectsData.js'
 function Projects() {
@@ -11,8 +12,9 @@ function Projects() {
   const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
   
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 766px)" });
+  const themee=useSelector(state=>state.theme)
   return (
-    <div className={styles.bodyanimation3}>
+    <div className={ themee.light ? styles.bodyanimation2 : styles.bodyanimation }>
 {isTabletOrMobile ? (
           <DrawerComp />
         ) : (

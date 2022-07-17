@@ -1,4 +1,5 @@
 import { Drawer, Menu } from "antd";
+import React from "react";
 import { useState } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
@@ -14,6 +15,9 @@ import Projects from "../Components/Projects";
 import Cursor from "../Components/Cursor";
 import Skills from "../Components/Skills";
 import DownloadButton from "../Components/DownloadButton";
+import Toggle from "../Components/Toggle";
+ import { useSelector } from "react-redux";
+import { theme } from "../tailwind.config";
  
  
 
@@ -21,7 +25,17 @@ export default function Home() {
   const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
   
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 766px)" });
-  
+  const themee=useSelector(state=>state.theme)
+  // const darkk=()=>{
+  //   if(themee.light){
+       
+  //   }
+  //   else{
+  //     console.log("light")
+  //   }
+  // }
+  // darkk()
+    
 const router= useRouter()
   return (
     <div  >
@@ -32,7 +46,8 @@ const router= useRouter()
       </Head>
 
       {/* <main className="bg-hero-pattern yolo h-screen flex-col"> */}
-        <main className={styles.bodyanimation }>
+        {/* <main className={styles.bodyanimation }> */}
+        <main className={ themee.light ? styles.bodyanimation2 : styles.bodyanimation }>
 <Cursor/>
         {/* sidenav */}
         <div id="home" className="flex h-screen w-screen">
@@ -44,19 +59,19 @@ const router= useRouter()
             <Hero />
           </div>
         )}
-        
+        {/* {themee  ?   console.log('light') : console.log('dark')} */}
        <div className={styles.cube}></div>
        <div className={styles.cube}></div>
        <div className={styles.cube}></div>
        <div className={styles.cube}></div>
       <div className={styles.cube}></div>
-       
+       <Toggle/>
           <div  className=" mx-5 md:ml-40 lg:ml-40  text-gray-300 m-auto flex flex-col justify-center items-start">
             <h1 className="text-3xl flex flex-col text-yellow-500 md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-yellow-200 md:to-yellow-800  lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r from-yellow-200 to-yellow-800  justify-start font-poppins font-bold items-center">
               
               Tosiron Jegede
             </h1>
-            <p className="text-2xl   flex flex-col justify-start font-raleway items-center ">
+            <p className={themee.light ? "text-2xl  dark flex flex-col justify-start font-raleway text-gray-900 items-center " : "text-2xl   flex flex-col justify-start font-raleway items-center text-gray-200"}>
             
                Frontend Developer
             </p>
@@ -76,7 +91,7 @@ const router= useRouter()
         </div>
    
     <div className="flex justify-center items-center w-full absolute bottom-14 ">
-          <svg className={styles.goDown} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path></svg>
+          <svg className={themee.light ? styles.goDown2 : styles.goDown} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path></svg>
           </div>
       </main>
       <div   id='about'>
