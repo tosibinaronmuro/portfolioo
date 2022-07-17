@@ -144,7 +144,8 @@
   
  
 .bodyanimation {
-  height: 100%;
+  min-height: 100%;
+  height: auto;
   width: 100vw;
   display: flex;
   /* mix-blend-mode: multiply; */
@@ -159,7 +160,8 @@
  
 }
 .bodyanimation2{
-  height: 100%;
+  min-height: 100%;
+  height: auto;
   width: 100vw;
   display: flex;
   /* mix-blend-mode: multiply; */

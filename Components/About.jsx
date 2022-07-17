@@ -10,6 +10,7 @@ import styles from "../styles/Home.module.css";
 import { useMediaQuery } from "react-responsive";
 import { useSelector } from "react-redux";
  
+ 
 
 export default function About() {
   const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
@@ -31,6 +32,8 @@ export default function About() {
        <div className={styles.cube}></div>
        <div className={styles.cube}></div>
       <div className={styles.cube}></div>
+
+   
         {/* sidenav */}
         <div className="flex h-screen w-screen">
         {isTabletOrMobile ? (
@@ -53,11 +56,11 @@ export default function About() {
             {/* <p className="text-sm lg:text-lg font-extralight flex flex-col justify-start font-raleway text-justify items-center"> */}
             <p className={themee.light ? "text-sm lg:text-lg font-extralight flex flex-col text-gray-900 justify-start font-raleway text-justify items-center" : "text-sm lg:text-lg font-light flex flex-col justify-start font-raleway text-gray-200 text-justify items-center"}>
             
-            Tosiron is currently working as a freelance Web Application developer and is always interested in a challenge. Reach out to Tosiron <a href="Contact">here</a> to connect!
+            Tosiron is currently working as a freelance Web Application developer and is always interested in a challenge. Reach out to Tosiron <a href="#contact">here</a> to connect!
             </p>
 
        
-
+            
           </div>
         </div>
     

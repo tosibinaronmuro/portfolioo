@@ -18,6 +18,8 @@ import DownloadButton from "../Components/DownloadButton";
 import Toggle from "../Components/Toggle";
  import { useSelector } from "react-redux";
 import { theme } from "../tailwind.config";
+import Contact from "../Components/Contact";
+import Footerr from "../Components/Footerr";
  
  
 
@@ -103,7 +105,13 @@ const router= useRouter()
       <div   id='projects'>
       <Projects/>
       </div>
+      <div   id='contact'>
+        <Contact/>
+      </div>
       
+      <div>
+        <Footerr/>
+      </div>
     
     </div>
   );
