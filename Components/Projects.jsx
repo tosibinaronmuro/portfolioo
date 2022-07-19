@@ -43,9 +43,9 @@ function Projects() {
                 <h1 className="text-white text-xl">{item.title}</h1>
                 <p>{item.tools}</p>
                 <div className="flex justify-center p-4  ">
-                  <button className="relative inline-flex items-center justify-center h-11 p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-200 to-yellow-800 group-hover:from-yellow-600 group-hover:to-yellow-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-200 ">
+                  <button className="relative inline-flex items-center justify-center h-11 p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-yellow-200 to-yellow-800 group-hover:from-yellow-600 group-hover:to-yellow-500 hover:text-white  dark:text-white focus:ring-4 focus:outline-none focus:ring-yellow-200 ">
                    <a href={item.github} target={item.target}>
-                   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 text-white bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 text-white  bg-gray-900 rounded-md group-hover:bg-opacity-0">
                       GitHub
                     </span>
                    </a>
