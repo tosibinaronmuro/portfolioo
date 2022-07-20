@@ -1,5 +1,5 @@
 import { Drawer, Menu } from "antd";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import App from "./Antd";
@@ -11,14 +11,20 @@ import { useMediaQuery } from "react-responsive";
 import { useSelector } from "react-redux";
 import ToTop from "./ToTop";
 import Form from "./Form";
- 
+
  
 
 function Contact() {
+   
+
   const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
   
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 766px)" });
   const themee=useSelector(state=>state.theme)
+
+
+
+
   return (
     <div>
       {/* <Head>
