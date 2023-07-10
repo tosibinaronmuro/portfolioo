@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tosiron's Portfolio Site
 
-## Getting Started
+This repository contains the code for Tosiron's portfolio site. The site showcases the work and skills of Tosiron, a full-stack developer. It was created using Next.js and features a "Contact Me" section connected to a Node.js backend that utilizes Nodemailer to send emails.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+You can access the live demo of Tosiron's portfolio site at [https://www.tosiron-portfolio.com](https://www.tosiron-portfolio.com).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The portfolio site is built using the following technologies:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Next.js: A React framework for building server-side rendered and static websites.
+- Node.js: A JavaScript runtime environment for server-side scripting.
+- Nodemailer: A module for Node.js that allows email sending capabilities.
+- HTML/CSS: The standard markup language and stylesheets for structuring and styling the site.
+- JavaScript: The programming language used for client-side interactivity and backend server logic.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contact Me
 
-## Learn More
+The "Contact Me" section of the portfolio site is connected to a Node.js backend. When a visitor submits the contact form, the backend utilizes Nodemailer to send an email to Tosiron's specified email address.
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run the portfolio site locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies by running `npm install` or `yarn install`.
+3. Start the development server by running `npm run dev` or `yarn dev`.
+4. Access the site in your browser at `http://localhost:3000`.
 
-## Deploy on Vercel
+Note: Ensure you have Node.js and npm (or yarn) installed on your machine before running the site locally.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions to improve the portfolio site are welcome! If you find any issues or have suggestions for enhancements, please submit a pull request. Be sure to follow the existing code style and guidelines.
+
+## Contact
+
+For any inquiries or further information, please contact Tosiron at [tosironj@gmail.com](mailto:tosironj@gmail.com). Thank you for your interest in Tosiron's portfolio site!
