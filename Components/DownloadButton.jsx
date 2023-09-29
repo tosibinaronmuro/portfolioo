@@ -3,7 +3,7 @@
 const DownloadButton = props => {
     const downloadFile = () => {
     //   window.location.href = "https://github.com/tosibinaronmuro/portfolioo/blob/main/Tosiron%20jegede.pdf"
-    window.location.href = "/TosironJegede.pdf"
+    window.location.href = "/Resume.pdf"
     }
     return (
                

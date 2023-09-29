@@ -7,6 +7,7 @@ import { motion } from "framer-motion"
 import TabSection from "./TabSection";
 import { useMediaQuery } from "react-responsive";
 import Hero from "./Hero";
+import SkillsComp from "./testSkills";
 import DrawerComp from "../Components/Drawer";
 import { useSelector } from "react-redux";
  
@@ -38,8 +39,8 @@ function Skills() {
               Skills
           </h1>
           <div className="flex w-full   flex-col lg:flex-row m-auto lg:m-14 justify-between">
-            
-            <TabSection/>
+            <SkillsComp/>
+            {/* <TabSection/> */}
           </div>
         </div>
       </div>
