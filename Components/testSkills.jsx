@@ -2,7 +2,7 @@ import React from "react";
 
 function SkillsComp() {
   return (
-    <div id="skills" className="container text-center bg-black page-view">
+    <div   className=" mb-4  text-center bg-black ">
       <h2 className=" text-2xl flex justify-center items-center mt-3 text-yellow-600">Skills Summary</h2>
       <h3 className="title">How I do my work</h3>
       <hr className="border-t-2 border-gray-400" />
