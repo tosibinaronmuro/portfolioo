@@ -75,7 +75,7 @@ const router= useRouter()
             </h1>
             <p className={themee.light ? "text-2xl  dark flex flex-col justify-start font-raleway text-gray-900 items-center " : "text-2xl   flex flex-col justify-start font-raleway items-center text-gray-200"}>
             
-               Frontend Developer
+               Full-stack Developer
             </p>
 
             <Socials />
