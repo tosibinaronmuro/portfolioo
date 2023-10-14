@@ -43,7 +43,7 @@ const router= useRouter()
     <div  >
       <Head>
         <title>{"Tosiron's Portfolio|| Home"}</title>
-        <meta name="description" content="personal portfolio by Tosiron, a Frontend Engineer" />
+        <meta name="description" content="personal portfolio by Tosiron, a Fullstack Engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
