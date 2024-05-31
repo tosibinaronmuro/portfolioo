@@ -32,7 +32,7 @@ function Projects() {
       <div className="flex h-auto w-screen">
         <div className=" mx-2 md:ml-40 lg:mx-40  m-auto flex flex-col justify-center items-start font-raleway">
           <h1 className="text-3xl flex m-4 text-yellow-500 md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-yellow-200 md:to-yellow-800  lg:text-transparent lg:bg-clip-text lg:bg-gradient-to-r from-yellow-200 to-yellow-800   flex-col justify-start font-poppins font-bold items-center">
-            Recent Projects
+            Fun Projects and Collaborations
           </h1>
           <div className="flex   flex-wrap justify-center  ">
              {Data.map((item)=>{

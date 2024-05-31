@@ -4,7 +4,19 @@ import portfolioSite from "../public/portfolioSite.png";
 import ISEEA from "../public/ISEEA.png";
 import rise from "../public/rise.png";
 import API from "../public/API.png";
+import magnalense from "../public/magnalense.png"
+import spicesafariadmin from "../public/spicesafariadmin.png"
+import spicesafarimain from "../public/spicesafarimain.png"
 const Data=[
+	{
+		'id': 7,
+			'image':magnalense ,
+			'title': `Mangalense Backend `,
+			'tools':'This is the backend of Mangalense, an e-commerce application specializing in glasses of various prescriptions. This Node.js, Express, MongoDB, and TypeScript-based backend provides essential functionalities for user authentication, product management, cart handling, and admin actions.',
+			'github': 'https://github.com/Emmaccen/magnalense-backend/tree/features',
+			'target': '_blank',
+			'demo': 'https://documenter.getpostman.com/view/15748545/2s9YsFCtBn',
+	},
 	{
 		'id': 6,
 			'image':rise ,
@@ -13,6 +25,33 @@ const Data=[
 			'github': 'https://github.com/tosibinaronmuro/rise',
 			'target': '_blank',
 			'demo': 'https://risecloud2.onrender.com',
+	},
+	{
+		'id': 9,
+			'image':rise ,
+			'title': `Spice Safari backend  `,
+			'tools':'The backend API documentation for Spice Safari, a food ordering application. This Node.js, Express, MongoDB, and TypeScript-based backend provides functionalities for user authentication, product management, cart handling, order processing, and admin actions..',
+			'github': 'https://github.com/tosibinaronmuro/rise',
+			'target': '_blank',
+			'demo': 'https://risecloud2.onrender.com',
+	},
+	{
+		'id': 6,
+			'image':spicesafariadmin ,
+			'title': `Spice safari admin dashboard `,
+			'tools':'This contains the functionalities and components of the Spice Safari admin dashboard, built using Next.js 13.',
+			'github': 'https://github.com/tosibinaronmuro/spicesafariadmin',
+			'target': '_blank',
+			'demo': 'https://spicesafariadmin-b2fy.vercel.app/',
+	},
+	{
+		'id': 6,
+			'image':spicesafarimain ,
+			'title': `Spice safari `,
+			'tools':'This outlines the functionalities and components of the Spice Safari web app, built using Next.js 13.',
+			'github': 'https://github.com/tosibinaronmuro/spice-safari-main',
+			'target': '_blank',
+			'demo': 'https://github.com/tosibinaronmuro/spice-safari-main',
 	},
 	{
 		'id': 4,
@@ -65,14 +104,6 @@ const Data=[
 		'demo': 'https://blogging-haven-api.onrender.com/',
 },
 
-// {
-//     'id': 7,
-// 		'image':portfolioSite ,
-// 		'title': `Personal portfolio site `,
-// 		'tools':'NEXTjs, Tailwind.css, Redux toolkit',
-// 		'github': 'https://github.com/tosibinaronmuro/portfolioo',
-// 		'target': '_blank',
-// 		'demo': 'https://tosironsportfoliosite.netlify.app/',
-// }
+
 ];
 export default Data
