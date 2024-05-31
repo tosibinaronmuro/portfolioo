@@ -44,7 +44,7 @@ const router= useRouter()
     <div  >
       <Head>
         <title>{"Tosiron's Portfolio|| Home"}</title>
-        <meta name="description" content="personal portfolio by Tosiron, a Frontend Engineer" />
+        <meta name="description" content="personal portfolio by Tosiron, a Fullstack Engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -76,7 +76,7 @@ const router= useRouter()
             </h1>
             <p className={themee.light ? "text-2xl  dark flex flex-col justify-start font-raleway text-gray-900 items-center " : "text-2xl   flex flex-col justify-start font-raleway items-center text-gray-200"}>
             
-               Frontend Developer
+               Full-stack Developer
             </p>
 
             <Socials />
