@@ -7,6 +7,7 @@ import API from "../public/API.png";
 import magnalense from "../public/magnalense.png"
 import spicesafariadmin from "../public/spicesafariadmin.png"
 import spicesafarimain from "../public/spicesafarimain.png"
+import spicebackend from "../public/spicebackend.png"
 const Data=[
 	{
 		'id': 7,
@@ -28,7 +29,7 @@ const Data=[
 	},
 	{
 		'id': 9,
-			'image':rise ,
+			'image':spicebackend ,
 			'title': `Spice Safari backend  `,
 			'tools':'The backend API documentation for Spice Safari, a food ordering application. This Node.js, Express, MongoDB, and TypeScript-based backend provides functionalities for user authentication, product management, cart handling, order processing, and admin actions..',
 			'github': 'https://github.com/tosibinaronmuro/rise',
