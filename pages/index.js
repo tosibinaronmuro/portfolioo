@@ -20,6 +20,7 @@ import Toggle from "../Components/Toggle";
 import { theme } from "../tailwind.config";
 import Contact from "../Components/Contact";
 import Footerr from "../Components/Footerr";
+import Experience from "../Components/experience";
  
  
 
@@ -100,7 +101,10 @@ const router= useRouter()
       <About/>
       </div>
       <div   id='skills'>
-   <Skills/>
+      <Experience/>
+      </div>
+      <div   id='skills'>
+      <Skills/>
       </div>
       <div   id='projects'>
       <Projects/>
